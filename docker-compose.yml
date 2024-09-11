@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: Hung-Sheng_Lee_coding_assignment11
+    build: .
+    image: hung-sheng-lee-coding-assignment11
+    ports:
+      - "7775:3000"
